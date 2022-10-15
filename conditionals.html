@@ -24,7 +24,7 @@
         } else {
             convertedTime = currentTimeInHours;
         }
-        if(currentTimeInHours == 0){ //GOOD MORNING
+        if(currentTimeInHours >= 0 && currentTimeInHours < 12){ //GOOD MORNING
             greetings = 'BUENAS DIAS! TIME NOW IS ' + convertedTime + 'AM';
         } else if(currentTimeInHours >= 12 && currentTimeInHours < 18) {
             greetings = 'BUENAS TARDES! TIME NOW IS ' + convertedTime + 'PM';
