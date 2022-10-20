@@ -1,0 +1,75 @@
+body {
+font-family: "Roboto", sans-serif;
+font-size: 1.4 rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-nav-items li {
+    list-style: none;
+}
+
+.li-nav-items a {
+    text-decoration: none;
+}
+
+.create-post-btn {
+    background-color: #ff5a5f;
+    padding: 6px 20px;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+nav ul li {
+    padding: 3px;
+}
+
+li:hover {
+    background-color: aqua;
+}
+
+.li-nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: url(../img/Sunset.jpg);
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+}
+
+.header-content h1 {
+    font-size: 5rem;
+    padding: 10px;
+    color: #14213d;
+}
+
+.header-content {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.header-content a {
+    border: 1 px solid #333;
+    padding: 15px 20px;
+    background-color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #333;
+
+}
